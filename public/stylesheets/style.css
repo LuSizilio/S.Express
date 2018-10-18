@@ -1,0 +1,41 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.toDo {
+  font-size: 25px;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+  background-color: #f0f0f0;
+  line-height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.text{
+  outline: none;
+  max-width: 500px;
+  overflow: hidden;
+}
+.controls{
+  width: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+.close,.edit,.finish {
+  opacity: .7;
+  cursor: pointer;
+  font-size: 15px;
+}
+.close:hover,.edit:hover,.finish:hover {
+  opacity: 1;
+}
